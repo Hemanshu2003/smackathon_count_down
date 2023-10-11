@@ -1,0 +1,164 @@
+/* header Section By Divyansh Sharma Starts here */
+body {
+  background: #1b002f;
+}
+
+.heroSection {
+  background: url(https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: max-content;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border: 4px solid #ff2e93df;
+  box-shadow: 0 10px 50px rgba(156, 36, 144, 0.6);
+  padding: 40px 20px;
+  margin-top: 3rem;
+}
+.countdown-timer {
+  margin-top: -100px;
+  color: pink;
+}
+
+.gfgLogo {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.presents {
+  font-family: 'Caveat', cursive;
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.heading_smackathonPage {
+  text-transform: uppercase;
+  font-size: 68px;
+  text-align: center;
+  color: white;
+  margin: 30px 0;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
+  animation: tubelight 5s linear;
+}
+.smackathon_logo {
+  width: 370px;
+}
+.whiteLine {
+  background: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 3px;
+  margin: 10px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.powered_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dates {
+  font-family: 'Caveat', cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
+}
+.dates h2 {
+  font-size: 35px;
+  color: white;
+  margin: 0;
+}
+.dates h1 {
+  margin-bottom: -20px;
+}
+.dates h2 sup {
+  font-size: 20px;
+  color: white;
+}
+
+.cojag_logo {
+  width: 180px;
+}
+.doket_logo {
+  width: 80px;
+}
+.gurukul_logo {
+  width: 200px;
+}
+.Co_poweredBy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Co_poweredBy_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.application-btn {
+  padding: 10px 20px;
+  border: 2px solid white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  box-shadow: 0 0 0 0 transparent;
+  transition: all 0.2s ease-in;
+}
+
+.application-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .gfgLogo {
+    width: 180px;
+  }
+
+  .presents {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .smackathon_logo {
+    width: 200px;
+  }
+  .description {
+    text-align: justify;
+  }
+  .powered_container {
+    flex-direction: column;
+  }
+
+  .cojag_logo {
+    width: 160px;
+  }
+  .doket_logo {
+    width: 60px;
+  }
+  .gurukul_logo {
+    width: 120px;
+  }
+
+  .Co_poweredBy {
+    margin-top: 20px;
+  }
+  .powered_container {
+    margin-top: -20px;
+  }
+}
