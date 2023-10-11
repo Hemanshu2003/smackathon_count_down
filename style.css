@@ -22,6 +22,7 @@ body {
 .countdown-timer {
   margin-top: -100px;
   color: pink;
+  pointer-events: none;
 }
 
 .gfgLogo {
