@@ -41,6 +41,7 @@ body {
   color: white;
   margin-bottom: 10px;
   text-align: center;
+  margin-top: 5px;
 }
 .heading_smackathonPage {
   text-transform: uppercase;
@@ -160,7 +161,7 @@ body {
   }
 
   .Co_poweredBy {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .powered_container {
     margin-top: -20px;
