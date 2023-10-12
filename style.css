@@ -1,4 +1,4 @@
-/* header Section By Divyansh Sharma Starts here */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=IBM+Plex+Mono:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
 body {
   background: #1b002f;
 }
@@ -33,7 +33,7 @@ body {
 .presents {
   font-family: 'Caveat', cursive;
   font-style: italic;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: white;
   margin-bottom: 10px;
@@ -162,4 +162,11 @@ body {
   .powered_container {
     margin-top: -20px;
   }
+}
+
+.text_bold {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  text-align: left;
 }
